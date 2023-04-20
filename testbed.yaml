@@ -1,0 +1,26 @@
+testbed:
+  name: XE_Testbed
+  credentials:
+    default:
+      username: user
+      password: pass
+
+
+devices:
+  Device_Name1:
+    type: iosxe
+    os: iosxe
+    connections:
+      vty:
+        protocol: ssh
+        ip: ip_address
+        port: 22
+  Device_Name2:
+    type: iosxe
+    os: iosxe
+    connections:
+      vty:
+        protocol: ssh
+        ip: ip_address
+        port: 22
+ 
