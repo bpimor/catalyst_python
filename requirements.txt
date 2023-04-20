@@ -58,6 +58,7 @@ six
 tftpy
 tqdm
 typing-extensions
+tabulate
 unicon
 unicon.plugins
 urllib3
